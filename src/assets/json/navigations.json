@@ -1,0 +1,104 @@
+{
+  "clientInfo": { 
+    "title": "AB InBev",
+     "icon": "<CIcon icon={cilDrop} customClassname='nav-icon' />",
+     "to": "https://www.ab-inbev.com/",
+     "name":  ""
+    },
+    "hexawareInfo": { 
+    "title": "Hexaware",
+     "icon": "<CIcon icon={cilDrop} customClassname='nav-icon' />",
+     "to": "https://hexaware.com/",
+     "name":  ""
+    },
+  "navigation":[
+    {
+    "title": "New Call",
+    "name": "nav",
+    "to": "/#/newcall",
+    "icon": "<CIcon icon={cilDrop} customClassname='nav-icon' />",
+    "items": []
+  },
+  {
+    "title": "View Calls",
+    "name": "nav",
+    "to": "/#/viewcall",
+    "icon": "<CIcon icon={cilDrop} customClassname='nav-icon' />",
+    "items": []
+  },
+  {
+    "title": "Administration",
+    "name": "nav",
+    "to": "/#/administration",
+    "icon": "<CIcon icon={cilDrop} customClassname='nav-icon' />",
+    "items": [{
+        "title": "Users",
+        "name": "nav",
+        "to": "/#/administration"
+      },
+      {
+        "title": "Suppliers",
+        "name": "nav",
+        "to": "/#/administration"
+      },
+      {
+        "title": "Organogram",
+        "name": "nav",
+        "to": "/#/administration"
+      },
+      {
+        "title": "Sites",
+        "name": "nav",
+        "to": "/#/administration"
+      },
+      {
+        "title": "Departments",
+        "name": "nav",
+        "to": "/#/administration"
+      },
+      {
+        "title": "Maintenance Group",
+        "name": "nav",
+        "to": "/#/administration"
+      }]
+  },
+  {
+    "title": "Reports",
+    "name": "nav",
+    "to": "/#/reports",
+    "icon": "<CIcon icon={cilDrop} customClassname='nav-icon' />",
+    "items": [
+      {
+        "title": "Total Open Calls Per User",
+        "name": "nav",
+        "to": "/#/report"
+      },
+      {
+        "title": "All Calls Per Site",
+        "name": "nav",
+        "to": "/#/report"
+      },
+      {
+        "title": "All Calls Per Maintenance Group",
+        "name": "nav",
+        "to": "/#/report"
+      },
+      {
+        "title": "All Calls With Action Detaiil",
+        "name": "nav",
+        "to": "/#/report"
+      },
+      {
+        "title": "Maintenance Cost & Resolve Time",
+        "name": "nav",
+        "to": "/#/report"
+      },
+      {
+        "title": "Total Calls per Technician",
+        "name": "nav",
+        "to": "/#/report"
+      }
+    ]
+  }
+]
+}
